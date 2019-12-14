@@ -21,7 +21,16 @@
 iframe.loading{
   width:100%;height:500px;border:solid 1px white
 }
+.imageCard{
+  height:100px;object-fit:cover
+}
 
+
+@media only screen and (max-width:700px){
+  .imageCard{
+    height:150px;object-fit:cover
+  }
+}
 @media only screen and (min-width:990px){
   .rightLayout{
     margin-left:210px

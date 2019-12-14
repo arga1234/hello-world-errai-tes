@@ -56,7 +56,8 @@
              <a-col style="padding:15px" :md="{span : 8}" v-for="(item, index) in items" :key="index">
             <a-card v-scroll-to="'#display'" hoverable style="width: 100%" @click="goto(item)" >
               <img
-                style="height:80px;object-fit:cover"
+                class="imageCard"
+                style=""
                 alt="example"
                 :src="item.pagemap.cse_thumbnail[0].src"
                 slot="cover"
